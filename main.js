@@ -11,12 +11,12 @@ item13.style.opacity = '.5';
 let item3 = document.querySelector('#item-3');
 item3.innerText = 'I say, "Hi!"';
 
-let image = document.querySelector('img');
-image.src = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg";
-image.style.height = '300px';
-
 let image1 = document.querySelector('#img1');
+image1.src = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg";
 image1.style.height = '300px';
+
+let image2 = document.querySelector('#img2');
+image2.style.height = '300px';
 
 let item16 = document.querySelector('#item-16');
 item16.className = "item";
